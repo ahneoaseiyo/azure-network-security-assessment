@@ -52,7 +52,17 @@ See the [conceptual Mermaid architecture diagram](diagrams/architecture.md). The
 
 ## Evidence
 
-I captured before-and-after screenshots during the lab. They have **not been uploaded to this repository yet** because they require a privacy review. See the [evidence checklist](evidence/README.md) for the intended filenames and redaction requirements.
+The screenshots below show the temporary test rule and the configuration after remediation. They were captured from this personal Azure lab and reviewed for visible account or subscription identifiers.
+
+**Before — temporary TCP/3389 allow rule from any IPv4 address**
+
+![Before remediation: temporary unrestricted RDP rule](evidence/NSG-001-Before.png)
+
+**After — no custom inbound NSG rules**
+
+![After remediation: only default inbound NSG rules](evidence/NSG-001-After.png)
+
+See [evidence notes](evidence/README.md).
 
 ## Tools and concepts
 
